@@ -1,0 +1,11 @@
+package first10;
+
+public class  {
+	public static void main(String[] args)
+	{
+	StringBuffer fb=new StringBuffer();
+	fb.a("feb");
+
+}
+
+	}

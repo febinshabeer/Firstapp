@@ -1,0 +1,23 @@
+package StringDemo;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		String s1="Hello";
+		char s2[]= {'h','e','l','l','o'};
+		String s3=new String("Hello");
+		String s4=new String(s2);
+		
+		System.out.println(s1+" "+s2+" "+s3+" "+s4);
+
+		s4="java";
+		System.out.println(s4);
+		String s5="javaproject";
+		String s6=s5.substring(2);
+		System.out.println(s6);
+		String s7=s5.substring(3,6);
+		System.out.println(s7);
+		
+	}
+
+}

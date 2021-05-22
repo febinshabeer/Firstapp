@@ -1,0 +1,5 @@
+package first10;
+
+public interface Inf {
+
+}

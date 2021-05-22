@@ -1,0 +1,16 @@
+package Exception;
+
+public class Demo2 {
+
+	public Demo2() {
+		
+	}
+	ArithmeticException ae;
+
+	public static void main(String[] args) {
+		String s;
+		// int l=s.length(); compiletime error
+    throw new ArithmeticException("error");
+	}
+
+}

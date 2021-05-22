@@ -1,0 +1,32 @@
+package Exception;
+
+class Myexception extends RuntimeException
+{
+	public String toString()
+	{
+	 return "Exception raised";
+	 
+	}
+}
+public class Demo1 {
+
+	public Demo1() {
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+	int x=10;
+	if(x<11)
+	{
+		throw new Myexception();
+	}
+		    }
+		}
+		
+		
+
+	
+
+

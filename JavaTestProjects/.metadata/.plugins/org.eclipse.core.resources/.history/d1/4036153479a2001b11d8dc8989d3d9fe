@@ -1,0 +1,17 @@
+package Callbyvalue;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		int x=10;
+		System.out.println("value of x:"+x);
+        int z=Demo1.change(x);
+        System.out.println("value of x after change: "x);
+	}
+	
+	static int change(int y)
+	{
+		y=y+1;
+		return y;
+	}
+}

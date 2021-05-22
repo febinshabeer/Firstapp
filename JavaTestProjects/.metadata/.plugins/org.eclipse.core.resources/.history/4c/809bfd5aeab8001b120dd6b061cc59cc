@@ -1,0 +1,14 @@
+package com.in28minutes.business;
+
+import com.in28minutes.data.api.Todoservice;
+
+public class TodoBusinessImpl {
+
+	private Todoservice todoservice;
+
+	public TodoBusinessImpl(Todoservice todoservice) {
+		super();
+		this.todoservice = todoservice;
+	}
+	
+}

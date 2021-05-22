@@ -1,0 +1,23 @@
+package arraysdemo;
+
+public class Dem {
+
+	static int x=2;
+	public final static void main(String[] args) {
+	
+		int [] a=new int[x];
+		//a[2]=2;
+		for(int i:a)
+		{
+			System.out.println(i);
+		}
+
+		int [][] arr= {{1,2},{3,4}};
+		for(int a1[]:arr)
+		{
+			for(int s:a1)
+				System.out.println(s);
+		}
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Supplier;
+
+public class Demo1 {
+	
+	private static void print(String str)
+	{
+		System.out.println(str);
+	}
+
+	public static void main(String[] args) {
+		List<String> courses=new ArrayList<String>();
+		courses.add("java");
+		courses.add("spring");
+		courses.add("springboot");
+		//courses.stream().map(str->str.toUpperCase()).forEach(System.out::println);
+		//courses.stream().map(str->str.toUpperCase()).forEach(Demo1::print);
+		courses.stream().map(String::toUpperCase).forEach(Demo1::print);
+
+		//constructor method reference
+		//Supplier<String> supplier=()->new String();
+		Supplier<String> supplier=String::new;
+		
+	}
+
+}
